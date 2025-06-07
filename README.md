@@ -1,6 +1,6 @@
 <div align="center">
-    <h1> V2RSS 云彩姬</h1>
-    <p>🚀 科学上网 从娃娃抓起</p>
+    <h1> Rss4ever</h1>
+    <p>🚀 Rss forever</p>
     <img src="https://img.shields.io/static/v1?message=reference&color=blue&style=for-the-badge&logo=micropython&label=python">
     <img src="https://img.shields.io/github/license/qin2dim/v2raycloudspider?style=for-the-badge">
 	<a href="https://github.com/QIN2DIM/V2RayCloudSpider/releases"><img src="https://img.shields.io/github/downloads/qin2dim/v2raycloudspider/total?style=for-the-badge"></a>
@@ -12,28 +12,27 @@
 	<br>
 </div>
 
-## 服务声明 🧙‍♂️
+项目简介
+Rss4ever 是一个基于 RSSHub 的智能信息聚合与订阅平台，致力于自动化地收集、整合并推送来自各大平台的热点资讯。通过灵活配置的 RSS 源和可定制的筛选逻辑，用户可以高效追踪自己关心的内容——不再错过任何重要动态。
 
-> 1. 本项目开源免费，请不要滥用接口；
->
-> 2. 本项目软件及源码禁止在国内网络环境大范围传播；
->
-> 3. 禁止任何人使用本项目及其分支提供任何形式的收费代理服务。
+项目目标
+🔄 自动化收集：使用 RSSHub 抓取各大平台内容，如微博热搜、知乎热榜、B站动态、少数派推荐、Hacker News 等。
 
-## 项目简介 👋
+🎯 个性化聚合：支持关键词过滤、内容分类、优先级排序等订阅策略。
 
-[V2RSS](https://github.com/QIN2DIM/V2RayCloudSpider) 是一种能对全球范围内基于 [SSPanel-Uim](https://github.com/Anankke/SSPanel-Uim) 框架产出的服务提供商进行垂直挖掘的「生态矿机」；能够自下而上地生成针对主流协议头的「聚合采集」任务；能够自我消化并产出相较于 [proxypool](https://github.com/zu1k/proxypool) 更加纯净可靠的代理节点；具备自主发现，服务自愈等强大的生产特性。
+🗃️ 长期归档：将收集的信息保存为本地或远程归档，支持 Markdown、HTML、JSON 等格式。
 
-## 快速上手 🛴
+🔔 多渠道推送：整合 Telegram、邮件、Webhook、Slack、微信机器人等消息推送方式。
 
-### 用户
-Step1: 阅读 [云彩姬使用指南](https://blog.echosec.top/v2rss-docs/zh/docs/user/v2rss-cli/overview/) 并运行 demo
+💡 辅助研究与内容创作：为研究人员、自媒体、内容创作者提供高质量、结构化的内容流。
 
-Step2: 期待好评 ✨
+技术特征与亮点 🌟
+🧩 模块化架构：基于 RSSHub 模块结构进行二次封装，便于定制与拓展。
 
-### 玩家
-Step1: Fork 项目 🥂
+🧠 智能筛选：内置自然语言处理模块（可选），用于摘要提取、关键词高亮、重复项去重。
 
-Step2: 根据 [技术文档](https://blog.echosec.top/v2rss-docs/zh/) 合理配置 config.yaml 
+📦 支持 Docker 部署：一键部署，轻松集成至个人服务器或 NAS。
 
-Step3: 使用脚手架调试并部署服务
+🛡️ 隐私友好：完全自托管，用户数据不经第三方服务器处理。
+
+📁 本地存档 + Git 同步：自动归档每天的热点内容，并可同步至 GitHub 作为开源内容库。
